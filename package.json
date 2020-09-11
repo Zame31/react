@@ -1,0 +1,22 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next -p 8000",
+    "build": "next build",
+    "start": "next start",
+    "deploy-production": "react-scripts build && scp -r ./build/* user@server_ip_address:/var/www/example.com/html"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.20.0",
+    "cookie-cutter": "^0.2.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "^16.13.1",
+    "reactjs-localstorage": "^1.0.1"
+  }
+}
